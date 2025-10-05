@@ -4,7 +4,7 @@ This README explains **how we trained** a **mission-agnostic** classifier to pre
 
 ---
 
-## Hugging Face Model & Artifacts
+## Model & Artifacts
 
 - **Model card / repo:**  
   👉 https://huggingface.co/ZapatoProgramming/ExoMAC-KKT
