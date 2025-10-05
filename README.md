@@ -4,6 +4,25 @@ This README explains **how we trained** a **mission-agnostic** classifier to pre
 
 ---
 
+## Hugging Face Model & Artifacts
+
+- **Model card / repo:**  
+  👉 https://huggingface.co/ZapatoProgramming/ExoMAC-KKT
+
+- **Direct artifact downloads (raw files):**
+  - `exoplanet_best_model.joblib`  
+    https://huggingface.co/ZapatoProgramming/ExoMAC-KKT/resolve/main/artifacts/exoplanet_best_model.joblib
+  - `exoplanet_feature_columns.json`  
+    https://huggingface.co/ZapatoProgramming/ExoMAC-KKT/resolve/main/artifacts/exoplanet_feature_columns.json
+  - `exoplanet_class_labels.json`  
+    https://huggingface.co/ZapatoProgramming/ExoMAC-KKT/resolve/main/artifacts/exoplanet_class_labels.json
+  - `exoplanet_metadata.json`  
+    https://huggingface.co/ZapatoProgramming/ExoMAC-KKT/resolve/main/artifacts/exoplanet_metadata.json
+
+> You can programmatically fetch these with `huggingface_hub.hf_hub_download` (examples below).
+
+---
+
 ## Project Structure (key files)
 
 ```
