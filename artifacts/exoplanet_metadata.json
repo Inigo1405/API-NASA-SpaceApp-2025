@@ -1,0 +1,10 @@
+{
+  "best_model_name": "RandomForest",
+  "n_features": 16,
+  "labels": [
+    "CANDIDATE",
+    "CONFIRMED",
+    "FALSE POSITIVE"
+  ],
+  "created": "2025-10-05T20:49:33.128163Z"
+}
