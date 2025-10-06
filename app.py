@@ -56,6 +56,15 @@ async def health():
         "service": "NASA SpaceApp API"
     }
 
+
+@app.get("/test/predict")
+async def test_predict():
+    """Endpoint de prueba para la predicción"""
+    return {
+        "status": 200,
+        "message": "SOY EL CHESTNUT",
+    }
+
 @app.post("/predict", response_model=PredictResponse)
 def predict(
     req: PredictRequest,
